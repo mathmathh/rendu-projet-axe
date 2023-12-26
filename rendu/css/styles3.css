@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 80vw;
+    background-color: rgb(252, 163, 250);
+}
+
+.divs1{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+header{
+    height:20vh ;
+    text-align: center;
+    background-color: magenta;
+}
+
+nav{
+    height: 80vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: magenta;
+}
+
+.img{
+    height: 43vh;
+    width: 17vw;
+}
+
+.m{
+    height: 11vh;
+    width: 5vw;
+}
+
+.div3{
+    display: flex;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/d3a9f97c9c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../css/styles.css">
+    
+</head>
+<body>
+    <header>
+        <i class="fa-solid fa-bars"></i>
+        <ul class="menu">
+            <li>Accueil</li>
+            <li>service</li>
+            <li>Contact</li>
+        </ul>
+        <button class="btnMode">dark mode</button>
+        <img src="../img/télécharger (1).png" alt=""class="m">
+        <h1>formulaire d'adoption </h1>
+    </header>
+    <div class="divs1">
+        <nav>
+            <img src="../img/télécharger (1).png" alt="">
+            <a href="index3.html">notre élevage </a>
+            <p>retour</p>
+            <a href="index.html">adopter rocky</a>
+            <p>adopter sam</p>
+            <p>adopter zoom</p>
+            
+        </nav>
+        <main>
+            <div class="div3">
+                <div class="sec1">
+                    <h2>adopter rocky</h2>
+                    <form action="">
+                        <label for="pseudo">prenom</label>
+                        <input type="text" id="pseudo">
+                        <label for="mail">mail</label>
+                        <input type="email"id="mail">
+                        <div>
+                            <label for="password">mot de passe </label>
+                            <input type="password" id="password">
+                            <div id="mdpError"></div>
+                        </div>
+                        
+                        <fieldset>
+                            <legend>situation amoureuse</legend>
+                            <!---->
+                            <select name="" id="">
+                                <option value="marie">marié</option>
+                                <option value="couple">couple</option>
+                                <option value="celibataire">celibataire</option>
+                            </select>
+                        </fieldset>
+                        <fieldset>
+                            <legend>genre</legend>
+                            <label for="f">femme</label>
+                            <input type="radio"name="genre" id="f">
+                            <label for="h">homme</label>
+                            <input type="radio" name="genre" id="h">
+                        </fieldset>
+                        <fieldset>
+                            <legend>condition de travail</legend>
+                            <label for="presentiel">présentiel</label>
+                            <input type="checkbox" name="" id="presentiel">
+                            <label for="teletravaille">teletravaille</label>
+                            <input type="checkbox"name="" id="teletravaille">
+                            <label for="chaumage">chaumage</label>
+                            <input type="checkbox" name="" id="chaumage">
+                        </fieldset>
+                        <input type="reset">
+                        <input id="bt" type="submit">
+                    </form>
+                </div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img id="caroussel" src="../img/OIP (1).jpg" alt="rocky image" class="img"></div>
+                        <div class="swiper-slide"><img id="caroussel" src="../img/OIP (2).jpg" alt="rocky image" class="img"></div>
+                        <div class="swiper-slide"><img id="caroussel" src="../img/OIP (3).jpg" alt="rocky image" class="img"></div>
+                        <div class="swiper-slide"><img id="caroussel" src="../img/R.jpg" alt="rocky image" class="img"></div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </main>
+    </div> 
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>   
+    <script src="../js/script.js"></script>
+    <script src="../js/swipper.js"></script>
+    
+</html>
